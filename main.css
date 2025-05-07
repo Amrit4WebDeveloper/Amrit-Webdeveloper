@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0,0, 33);
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav{
+    height:85px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(18,18,62);
+    position:sticky;
+}
+.seperate1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size:25px;
+    color:white;
+}
+.page{
+   display:flex;
+   justify-content: space-around;
+}
+.aboutmetext{
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    margin:20px 30px 0px 30px;
+}
+.page1{
+    display:flex;
+    justify-content:space-around;
+}
+.page1 div{
+    width:25%;
+    height:300px;
+    color:white;
+    font-weight: bold;
+    font-size:22px;
+    margin:20px;
+
+}

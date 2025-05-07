@@ -1,0 +1,87 @@
+.page div{
+    width:80%;
+    height:500px;
+    margin: 30px 0px 0px 40px;
+    font-size:60px;
+    font-weight: bolder;
+    color:white;
+ }
+ nav ul{
+    display:flex;
+    justify-content:center;
+}
+nav ul li{
+    margin: 0 70px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+.purple{
+    color:purple;
+}
+nav ul li a:hover{
+    color:gray;
+    
+}
+#typewriter {
+    font-family: monospace;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: fit-content;
+    color:purple;
+  }
+  
+  /* Custom smaller cursor */
+  #typewriter::after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    top: 4px; /* Adjust vertically */
+    width: 1px;
+    height: 18px; /* Cursor height */
+    background-color: black;
+    animation: blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes blink-caret {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  } 
+  .colour{
+    font-size: 50px;
+    font-weight:bolder;
+    color:purple;
+    animation: text 10s infinite;
+  }
+  @keyframes text{
+    0%, 100%{
+      color:purple;
+      font-size: 50px;
+      font-weight:bolder;
+    }
+    20%{
+      color:white;
+      font-size: 50px;
+    font-weight:bolder;
+    }
+    40%{
+      color:rgb(60, 237, 243);
+      font-size: 50px;
+    font-weight:bolder;
+    }
+    60%{
+      color:yellow;
+      font-size: 50px;
+    font-weight:bolder;
+    }
+    80%{
+      color:lawngreen;
+      font-size: 50px;
+    font-weight:bolder;
+    }
+  }
